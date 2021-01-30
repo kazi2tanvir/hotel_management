@@ -1,0 +1,20 @@
+.heading{
+    color: black;
+    margin-left: 41%;
+}
+
+.bodyContent{
+    width: 550px;
+    margin-left: 25%;
+}
+.mainDiv{
+    background-color: slategray;
+}
+.bttn{
+    background-color: rgb(83, 8, 8);
+    width: 300px;
+    margin-left: 23%;
+}
+.mssg{
+    margin-left: 35%;
+}

@@ -1,0 +1,17 @@
+
+.heading{
+    color: black;
+    margin-left: 38%;
+}
+.bodyContent{
+    width: 550px;
+    margin-left: 25%;
+}
+.mainDiv{
+    background-color: slategray;
+}
+.bttn{
+    background-color: rgb(83, 8, 8);
+    width: 300px;
+    margin-left: 23%;
+}

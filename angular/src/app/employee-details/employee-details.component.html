@@ -1,0 +1,44 @@
+
+<div class="mainDiv"><br>
+<h2 class="heading"> <u> Guests Information Details </u> </h2> <br>
+<div class="bodyContent">
+<div class="bodyContent1" *ngIf="employee">
+  <div class="contentDetails text-white">
+    <label class="textLine">Full Name: </label> {{employee.fullName}}
+  </div>
+  <div class="contentDetail text-white">
+    <label class="textLine"> Email Id: </label> {{employee.emailId}}
+  </div>  
+  <div class="contentDetails text-white">
+    <label class="textLine">Address: </label> {{employee.address}}
+  </div> 
+  <div class="contentDetail text-white ">
+    <label class="textLine">Phone: </label> {{employee.phone}}
+  </div> 
+  <div class="contentDetails text-white">
+    <label class="textLine">Room No:</label> {{employee.roomNo}}
+  </div> 
+  <div class="contentDetail text-white">
+    <label class="textLine">Number of Guests: </label> {{employee.guests}}
+  </div> 
+  <div class="contentDetails text-white">
+    <label class="textLine">Check In:</label> {{employee.checkIn}}
+  </div> 
+  <div class="contentDetail text-white">
+    <label class="textLine">Check Out: </label> {{employee.checkOut}}
+  </div> 
+  <div class="contentDetails text-white">
+    <label class="textLine">Total Payment Bill:</label> {{employee.salary}}
+  </div> 
+  <div class="contentDetail text-white">
+    <label class="textLine">Discount</label> {{bonus}}
+  </div>
+  <div class="contentDetails text-white">
+    <label class="textLine">Payment Bill: </label> {{totalsalary}}
+  </div>
+</div>
+<br>
+<button (click)="list()" class="btn bttn text-white">Back to Booking List</button><br>
+
+</div>
+</div>

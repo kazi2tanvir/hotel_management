@@ -1,0 +1,32 @@
+
+<div >
+<nav class="navbar navbar-expand-sm navbar-dark tmenu">
+  <!-- Links -->
+  <ul class="navbar-nav menu ">
+    <li class="nav-item">
+      <a routerLink="hotel" class="nav-link" routerLinkActive="active">Aurora Home</a>
+  </li>
+    <li class="nav-item">
+        <a routerLink="employees" class="nav-link" routerLinkActive="active">Booking List</a>
+    </li>
+    <li class="nav-item">
+        <a routerLink="add" class="nav-link" routerLinkActive="active">Room Booking</a>
+    </li>
+
+  </ul>
+</nav>
+
+
+<div class="container ">
+  <br>
+  <img class="imgs" src="assets/images/logo.jpg">
+  <h2 style="color: darkred; text-align: center;">{{title}}</h2>
+   
+  <div class="card">
+    <div class="card-body">
+  <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+</div>
+

@@ -1,0 +1,39 @@
+.bg{
+    background-color: chocolate;
+    border:10px solid darkgray;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    height: 900px;
+    
+}
+.cnt{
+    background-color: darkolivegreen;
+    border:10px solid darkgray;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:5px;
+    height: 350px;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.elm{
+    float: left;
+    height: 75%;
+    width: 50%;
+    margin-top: 3%;
+}
+.img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bn{
+    background-color: darkgray;
+    margin-top: 2.5%;
+    margin-left: 25%;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

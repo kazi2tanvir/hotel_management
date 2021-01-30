@@ -1,0 +1,20 @@
+.tmenu{
+    background-color: rgb(83, 8, 8);
+    height: 40px;
+    margin-left:10%;
+    width: 77%;
+    background-image: url(../assets/images/365.jpg);
+}
+.menu{
+    margin-left: 38%;
+}
+.imgs{
+    height: 12%;
+    width: 12%;
+    margin-left: 44%;
+}
+.constentBG{
+    width: 120%;
+    background-color: limegreen;
+}
+

@@ -1,0 +1,28 @@
+.heading{
+    color: black;
+    margin-left: 32%;
+}
+
+.contentDetails{
+    background-color: rgb(24, 23, 23);
+    width: 70%;
+    border: 3px;
+    margin-left: 15%;
+}
+.contentDetail{
+    background-color: rgb(88, 92, 97);
+    width: 70%;
+    border: 3px;
+    margin-left: 15%;
+}
+.textLine{
+    margin-left: 30%;
+}
+.bttn{
+    background-color: rgb(83, 8, 8);
+    margin-left: 36%;
+    width: 300px;
+}
+.mainDiv{
+    background-color: slategray;
+}

@@ -1,0 +1,3 @@
+database user:root
+database Password:idb@123456
+database Name:db1

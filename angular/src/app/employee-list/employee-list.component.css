@@ -1,0 +1,35 @@
+.tableData{
+    width: 150px;
+}
+.tableData1{
+    width: 100px;
+}
+.tableData2{
+    width: 120px;
+}
+.tdLight{
+    background-color: lightblue;
+}
+
+.tab{
+    background-color: darkslategrey;
+    height: 40px;
+}
+.heading{
+    color: black;
+    margin-left: 41%;
+}
+
+.bodyContent{
+    width: 550px;
+    margin-left: 25%;
+}
+.button1{
+    background-color: darkolivegreen;
+}
+.button2{
+    background-color: saddlebrown;
+}
+.bgred{
+    background-color: lightslategray;
+}

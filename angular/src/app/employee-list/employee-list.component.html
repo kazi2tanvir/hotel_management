@@ -1,0 +1,41 @@
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2 class="heading"><u>Booking List </u></h2><br>
+  </div>
+  <div class="panel-body">
+    <table class="table-hover bgred">
+      <thead>
+        <tr class="tab table-striped text-white text-align:center">
+          <th>Full Name</th>
+          <th>Address</th>
+          <th>Phone</th>
+          <th>CheckIn</th>
+          <th>CheckOut</th>
+          <th>Payment</th>
+          <th>Actions</th>
+  
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tdLight" *ngFor="let employee of employees | async">
+          <td class="tableData" >{{employee.fullName}}</td>
+          <td class="tableData">{{employee.address}}</td>
+          <td class="tableData1">{{employee.phone}}</td>
+          <td class="tableData2">{{employee.checkIn}}</td>
+          <td class="tableData2">{{employee.checkOut}}</td>
+          <td class="tableData2">{{employee.salary}}</td>
+          
+          <td> 
+              <button (click)="deleteEmployee(employee.id)" class="btn button1">SignOut</button>
+              <button (click)="updateEmployee(employee.id)" class="btn button2" style="margin-left: 5px">Update</button>
+              <button (click)="employeeDetails(employee.id)" class="btn button1" style="margin-left: 5px">Details</button>
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
